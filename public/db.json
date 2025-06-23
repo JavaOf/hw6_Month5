@@ -1,0 +1,20 @@
+{
+  "user": [
+    {
+      "id": "f9ae",
+      "username": "asdasdas",
+      "email": "vistus707@gmail.com",
+      "password": "123456",
+      "phone": "+71231231",
+      "confirmPassword": "123456"
+    },
+    {
+      "id": "5c56",
+      "username": "asdasda",
+      "email": "vistus707@gmail.com",
+      "password": "111111",
+      "phone": "+71231231",
+      "confirmPassword": "111111"
+    }
+  ]
+}
