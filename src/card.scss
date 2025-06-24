@@ -1,0 +1,99 @@
+.card {
+  background-color: #333;
+  width: calc(50% - 10px);
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  font-family: "Montserrat", sans-serif;
+  animation: animate 2s ease 1;
+  -webkit-box-shadow: 3px 3px 10px 3px #dddddd;
+  -moz-box-shadow: 3px 3px 10px 3px #dddddd;
+  box-shadow: 3px 3px 10px 3px #dddddd;
+  &-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+  &-id {
+    color: gold;
+    font-size: 20px;
+  }
+  &-username {
+    color: gold;
+    font-size: 18px;
+  }
+  &-email {
+    color: gold;
+    font-size: 18px;
+  }
+  input {
+    padding: 15px;
+    outline: none;
+    border-radius: 3px;
+    border: solid 1px gold;
+    color: gold;
+    background-color: transparent;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    transition: all 200ms ease-out;
+    width: 100%;
+    &:focus {
+      border: solid 1px #dddddd;
+    }
+  }
+  &-save {
+    font-family: "Montserrat", sans-serif;
+    background-color: transparent;
+    color: gold;
+    border: solid 1px gold;
+    cursor: pointer;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    transition: all 200ms ease-out;
+    &:hover {
+      background-color: gold;
+      color: #333;
+    }
+  }
+  &-change {
+    font-family: "Montserrat", sans-serif;
+    background-color: transparent;
+    color: gold;
+    border: solid 1px gold;
+    cursor: pointer;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    transition: all 200ms ease-out;
+    &:hover {
+      background-color: gold;
+      color: #333;
+    }
+  }
+}
+
+
+
+.row{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+    input{
+        width: 100%;
+    }
+}
+
+
+.row-card{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
